@@ -18,3 +18,10 @@ a-  Pasos para actualizar la copia (fork) de un repositorio de Git:
 b- ¿Es posible que Alfa actualice su fork al estado del fork de Gamma?
 
 	No, no es posible.
+
+c- ¿Es posible que Gamma actualice su fork al estado del fork de Alfa?
+
+	No, no es posible.
+
+d-¿Los datos que tenia en mi repositorio, editados por mi, se pierden si quiero actualizar el fork?
+	No, no se pierden, trae la ultima version del original.
