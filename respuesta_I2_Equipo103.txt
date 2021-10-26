@@ -1,3 +1,20 @@
 Laplume Valentin
 Lopez Gabriel
 Mugetti Stefano
+
+a-  Pasos para actualizar la copia (fork) de un repositorio de Git:
+
+	Agregar la referencia al repositorio remoto original, al cual llamaremos 
+	«upstream», esto lo logramos con el comando:
+	git remote add upstream https://github.com/stefanomugetti/TP_SO_i2_103.git
+	Traernos todas las ramas de dicho repositorio remoto con: git fetch 
+	upstream. Irnos a la rama que queremos actualizar, por ejemplo master: git 
+	checkout master. Reescribir nuestra rama master con los commits nuevos de la rama 
+	master del repositorio original con:
+	git rebase upstream/master
+	Finalmente si queremos actualizar nuestro fork remoto, 
+	lo haremos ejecutando git push -f origin master
+
+b- ¿Es posible que Alfa actualice su fork al estado del fork de Gamma?
+
+	No, no es posible.
