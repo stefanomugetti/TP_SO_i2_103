@@ -25,3 +25,72 @@ c- ¿Es posible que Gamma actualice su fork al estado del fork de Alfa?
 
 d-¿Los datos que tenia en mi repositorio, editados por mi, se pierden si quiero actualizar el fork?
 	No, no se pierden, trae la ultima version del original.
+
+
+e- 
+Stefano Mugetti (Beta)
+Punto 1:
+1-git clone
+2-touch TP_SO_i2_103/fork.txt
+3-git add -A
+4-git commit -m "Primer commit"
+5-git push origin main
+
+Gabriel Lopez Gasal (Gamma)
+Punto 2:
+1- git clone (url.git)
+2- date 
+3- ip route
+4- vim "fork.txt" 
+(agregue los datos de los 2 comandos anteriores)
+5- git add -A
+6- git commit -m "Gamma n1"
+7- git push
+
+Valentin Laplume (Alfa)
+Punto 3:
+1- git clone (url.git)
+2- date 
+3- ip route
+4- vim "fork.txt" 
+(agregue los datos de los 2 comandos anteriores)
+5- git add -A
+6- git commit -m "Parte Alfa"
+7- git push
+
+Stefano Mugetti (Beta)
+Punto 4:(Ya tenia descargado el repositorio y no habia cambios)
+1-touch TP_SO_i2_103/NuevoDato.txt
+2-git add -A
+3-git commit -m "Commit 2 Beta"
+4-git push origin main
+
+Gabriel Lopez Gasal y Valentin Laplume (Gamma y Alfa)
+Punto 5:
+1- git remote add upstream (url.git)
+2- git fetch upstream
+3- git checkout main
+4- git rebase upstream/main
+5- git push
+
+Stefano Mugetti (Beta)
+Punto 6:(Dice 4 pero esta repetido, y sigue luego del 5)
+1-touch TP_SO_i2_103/respuesta_I2_Equipo103
+2-vim respuesta_I2_Equipo103 (agrego datos)
+3-git add -A
+4-git commit -m "Commit 3 Agrego respuestas"
+5-git push origin main
+
+Valentin laplume (alfa)
+punto 7:
+1- git fetch upstream
+2- git checkout main
+3- git rebase upstream/main
+4- vim respuesta_I2_Equipo103 (agrego datos)
+5- git status
+6-git add -A
+7- git commi -m ".."
+8 - git push
+9- Pull Request solicitamos por github aunque pudimos solicitarlo por comando pero por x razon
+no encontramos el comando
+Probamos con hub push-request y no funciono aunque estabamos en eso
