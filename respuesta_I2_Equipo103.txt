@@ -26,6 +26,7 @@ c- ¿Es posible que Gamma actualice su fork al estado del fork de Alfa?
 d-¿Los datos que tenia en mi repositorio, editados por mi, se pierden si quiero actualizar el fork?
 	No, no se pierden, trae la ultima version del original.
 
+
 e- 
 Stefano Mugetti (Beta)
 Punto 1:
@@ -93,4 +94,3 @@ punto 7:
 9- Pull Request solicitamos por github aunque pudimos solicitarlo por comando pero por x razon
 no encontramos el comando
 Probamos con hub push-request y no funciono aunque estabamos en eso
-
